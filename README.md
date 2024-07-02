@@ -1,6 +1,6 @@
 ## Simple Login Page Project
 
-This project demonstrates a basic login page implemented using HTML and CSS, designed for user authentication on a website.
+This project demonstrates a basic login page implemented using HTML, CSS and JavaScript, designed for user authentication on a website.
 
 ### Project Structure
 
@@ -15,7 +15,9 @@ The project includes the following main files:
    - Overall page layout settings.
    - Styling for text fields, buttons, and other UI components.
    - Responsive design adjustments for different screen sizes.
-
+3. **index.js**: This file do a very simple verification based on:
+   - Verify if the username and password it's not empty
+   - Send an alert on the DOM welcoming when the verification is completed.
 ### Features
 
 - **User Input**: Allows users to enter their username and password.
