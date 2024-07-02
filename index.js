@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const password = document.getElementById('user-password').value;
 
         if(username && password){
-            alert(`Bem-vindo ${username}`);
+            alert(`Welcome ${username}.`);
         }
         else{
-            alert("Inválido");
+            alert("Login invalid.");
         }
     });
 });
